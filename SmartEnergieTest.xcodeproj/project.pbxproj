@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B946CE0510B99B8C7EE6C5 /* libPods-SmartEnergieTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74165BF89671F9D8064181FB /* libPods-SmartEnergieTest.a */; };
+		2B7BA1411EF9303F0008B96F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BA1401EF9303F0008B96F /* main.m */; };
+		2B7BA1441EF9303F0008B96F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BA1431EF9303F0008B96F /* AppDelegate.m */; };
+		2B7BA14A1EF9303F0008B96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7BA1481EF9303F0008B96F /* Main.storyboard */; };
+		2B7BA14C1EF9303F0008B96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7BA14B1EF9303F0008B96F /* Assets.xcassets */; };
+		2B7BA14F1EF9303F0008B96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7BA14D1EF9303F0008B96F /* LaunchScreen.storyboard */; };
+		2B7BA15A1EF9303F0008B96F /* SmartEnergieTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BA1591EF9303F0008B96F /* SmartEnergieTestTests.m */; };
+		2B7BA1651EF9303F0008B96F /* SmartEnergieTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BA1641EF9303F0008B96F /* SmartEnergieTestUITests.m */; };
+		2B7BA17E1EF93F450008B96F /* SEHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BA17D1EF93F450008B96F /* SEHomeViewController.m */; };
+		2B7BA1851EF9414C0008B96F /* NSAttributedString+NSAttributedString_extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BA1841EF9414C0008B96F /* NSAttributedString+NSAttributedString_extension.m */; };
+		2B7BA1881EF95A9E0008B96F /* SEProfil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BA1871EF95A9E0008B96F /* SEProfil.m */; };
+		2BEE8B971EF967D90018FB34 /* SESignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8B961EF967D90018FB34 /* SESignInViewController.m */; };
+		2BEE8B9B1EF968260018FB34 /* SESignInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8B991EF968260018FB34 /* SESignInTableViewCell.m */; };
+		2BEE8B9C1EF968260018FB34 /* SESignInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE8B9A1EF968260018FB34 /* SESignInTableViewCell.xib */; };
+		2BEE8BA81EF9775B0018FB34 /* SEFooterSignInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8BA61EF9775B0018FB34 /* SEFooterSignInTableViewCell.m */; };
+		2BEE8BA91EF9775B0018FB34 /* SEFooterSignInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE8BA71EF9775B0018FB34 /* SEFooterSignInTableViewCell.xib */; };
+		2BEE8BAC1EF99EED0018FB34 /* UIAlertController+UIAlertController_extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8BAB1EF99EED0018FB34 /* UIAlertController+UIAlertController_extension.m */; };
+		2BEE8BB01EF9A2D50018FB34 /* SEMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8BAF1EF9A2D50018FB34 /* SEMenuTableViewController.m */; };
+		2BEE8BB31EF9A5360018FB34 /* SEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8BB21EF9A5360018FB34 /* SEMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B7BA1561EF9303F0008B96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B7BA1341EF9303E0008B96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7BA13B1EF9303F0008B96F;
+			remoteInfo = SmartEnergieTest;
+		};
+		2B7BA1611EF9303F0008B96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B7BA1341EF9303E0008B96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7BA13B1EF9303F0008B96F;
+			remoteInfo = SmartEnergieTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B7BA13C1EF9303F0008B96F /* SmartEnergieTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartEnergieTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7BA1401EF9303F0008B96F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B7BA1421EF9303F0008B96F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B7BA1431EF9303F0008B96F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B7BA1491EF9303F0008B96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B7BA14B1EF9303F0008B96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B7BA14E1EF9303F0008B96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B7BA1501EF9303F0008B96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7BA1551EF9303F0008B96F /* SmartEnergieTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartEnergieTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7BA1591EF9303F0008B96F /* SmartEnergieTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartEnergieTestTests.m; sourceTree = "<group>"; };
+		2B7BA15B1EF9303F0008B96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7BA1601EF9303F0008B96F /* SmartEnergieTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartEnergieTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7BA1641EF9303F0008B96F /* SmartEnergieTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartEnergieTestUITests.m; sourceTree = "<group>"; };
+		2B7BA1661EF9303F0008B96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7BA17C1EF93F450008B96F /* SEHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEHomeViewController.h; sourceTree = "<group>"; };
+		2B7BA17D1EF93F450008B96F /* SEHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEHomeViewController.m; sourceTree = "<group>"; };
+		2B7BA1801EF940F70008B96F /* SmartEnergieTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartEnergieTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B7BA1831EF9414C0008B96F /* NSAttributedString+NSAttributedString_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+NSAttributedString_extension.h"; sourceTree = "<group>"; };
+		2B7BA1841EF9414C0008B96F /* NSAttributedString+NSAttributedString_extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+NSAttributedString_extension.m"; sourceTree = "<group>"; };
+		2B7BA1861EF95A9E0008B96F /* SEProfil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEProfil.h; sourceTree = "<group>"; };
+		2B7BA1871EF95A9E0008B96F /* SEProfil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEProfil.m; sourceTree = "<group>"; };
+		2BEE8B951EF967D90018FB34 /* SESignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESignInViewController.h; sourceTree = "<group>"; };
+		2BEE8B961EF967D90018FB34 /* SESignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESignInViewController.m; sourceTree = "<group>"; };
+		2BEE8B981EF968260018FB34 /* SESignInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESignInTableViewCell.h; sourceTree = "<group>"; };
+		2BEE8B991EF968260018FB34 /* SESignInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESignInTableViewCell.m; sourceTree = "<group>"; };
+		2BEE8B9A1EF968260018FB34 /* SESignInTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SESignInTableViewCell.xib; sourceTree = "<group>"; };
+		2BEE8BA51EF9775B0018FB34 /* SEFooterSignInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFooterSignInTableViewCell.h; sourceTree = "<group>"; };
+		2BEE8BA61EF9775B0018FB34 /* SEFooterSignInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFooterSignInTableViewCell.m; sourceTree = "<group>"; };
+		2BEE8BA71EF9775B0018FB34 /* SEFooterSignInTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEFooterSignInTableViewCell.xib; sourceTree = "<group>"; };
+		2BEE8BAA1EF99EED0018FB34 /* UIAlertController+UIAlertController_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+UIAlertController_extension.h"; sourceTree = "<group>"; };
+		2BEE8BAB1EF99EED0018FB34 /* UIAlertController+UIAlertController_extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+UIAlertController_extension.m"; sourceTree = "<group>"; };
+		2BEE8BAE1EF9A2D50018FB34 /* SEMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMenuTableViewController.h; sourceTree = "<group>"; };
+		2BEE8BAF1EF9A2D50018FB34 /* SEMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMenuTableViewController.m; sourceTree = "<group>"; };
+		2BEE8BB11EF9A5360018FB34 /* SEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMainViewController.h; sourceTree = "<group>"; };
+		2BEE8BB21EF9A5360018FB34 /* SEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMainViewController.m; sourceTree = "<group>"; };
+		6A532CBC63F93B21D718CC1B /* Pods-SmartEnergieTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartEnergieTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartEnergieTest/Pods-SmartEnergieTest.release.xcconfig"; sourceTree = "<group>"; };
+		74165BF89671F9D8064181FB /* libPods-SmartEnergieTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartEnergieTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AFF2997BC948EE5B889483 /* Pods-SmartEnergieTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartEnergieTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartEnergieTest/Pods-SmartEnergieTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B7BA1391EF9303F0008B96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B946CE0510B99B8C7EE6C5 /* libPods-SmartEnergieTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7BA1521EF9303F0008B96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7BA15D1EF9303F0008B96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B7BA1331EF9303E0008B96F = {
+			isa = PBXGroup;
+			children = (
+				2B7BA13E1EF9303F0008B96F /* SmartEnergieTest */,
+				2B7BA1581EF9303F0008B96F /* SmartEnergieTestTests */,
+				2B7BA1631EF9303F0008B96F /* SmartEnergieTestUITests */,
+				2B7BA13D1EF9303F0008B96F /* Products */,
+				6BAF6D421554E9A50993573E /* Pods */,
+				C8CA1BCFAB81E4AA40C9ABC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B7BA13D1EF9303F0008B96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA13C1EF9303F0008B96F /* SmartEnergieTest.app */,
+				2B7BA1551EF9303F0008B96F /* SmartEnergieTestTests.xctest */,
+				2B7BA1601EF9303F0008B96F /* SmartEnergieTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7BA13E1EF9303F0008B96F /* SmartEnergieTest */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA1421EF9303F0008B96F /* AppDelegate.h */,
+				2B7BA1431EF9303F0008B96F /* AppDelegate.m */,
+				2B7BA1801EF940F70008B96F /* SmartEnergieTest-Bridging-Header.h */,
+				2B7BA17B1EF93A060008B96F /* Cell */,
+				2B7BA17A1EF939E80008B96F /* Manager */,
+				2B7BA1791EF939DC0008B96F /* Models */,
+				2B7BA1781EF939D00008B96F /* Network */,
+				2B7BA1771EF939B70008B96F /* Ressources */,
+				2B7BA1761EF939AC0008B96F /* Tools */,
+				2B7BA1751EF939A20008B96F /* ViewControllers */,
+				2B7BA1721EF9396D0008B96F /* Views */,
+				2B7BA13F1EF9303F0008B96F /* Supporting Files */,
+			);
+			path = SmartEnergieTest;
+			sourceTree = "<group>";
+		};
+		2B7BA13F1EF9303F0008B96F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA1401EF9303F0008B96F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B7BA1581EF9303F0008B96F /* SmartEnergieTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA1591EF9303F0008B96F /* SmartEnergieTestTests.m */,
+				2B7BA15B1EF9303F0008B96F /* Info.plist */,
+			);
+			path = SmartEnergieTestTests;
+			sourceTree = "<group>";
+		};
+		2B7BA1631EF9303F0008B96F /* SmartEnergieTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA1641EF9303F0008B96F /* SmartEnergieTestUITests.m */,
+				2B7BA1661EF9303F0008B96F /* Info.plist */,
+			);
+			path = SmartEnergieTestUITests;
+			sourceTree = "<group>";
+		};
+		2B7BA1721EF9396D0008B96F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA1481EF9303F0008B96F /* Main.storyboard */,
+				2B7BA14D1EF9303F0008B96F /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2B7BA1751EF939A20008B96F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BEE8BAD1EF9A28E0018FB34 /* slidingMenu */,
+				2B7BA17C1EF93F450008B96F /* SEHomeViewController.h */,
+				2B7BA17D1EF93F450008B96F /* SEHomeViewController.m */,
+				2BEE8B951EF967D90018FB34 /* SESignInViewController.h */,
+				2BEE8B961EF967D90018FB34 /* SESignInViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B7BA1761EF939AC0008B96F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA17F1EF940D70008B96F /* Extensions */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		2B7BA1771EF939B70008B96F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA14B1EF9303F0008B96F /* Assets.xcassets */,
+				2B7BA1501EF9303F0008B96F /* Info.plist */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		2B7BA1781EF939D00008B96F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		2B7BA1791EF939DC0008B96F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA1861EF95A9E0008B96F /* SEProfil.h */,
+				2B7BA1871EF95A9E0008B96F /* SEProfil.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2B7BA17A1EF939E80008B96F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		2B7BA17B1EF93A060008B96F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2BEE8B981EF968260018FB34 /* SESignInTableViewCell.h */,
+				2BEE8B991EF968260018FB34 /* SESignInTableViewCell.m */,
+				2BEE8B9A1EF968260018FB34 /* SESignInTableViewCell.xib */,
+				2BEE8BA51EF9775B0018FB34 /* SEFooterSignInTableViewCell.h */,
+				2BEE8BA61EF9775B0018FB34 /* SEFooterSignInTableViewCell.m */,
+				2BEE8BA71EF9775B0018FB34 /* SEFooterSignInTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		2B7BA17F1EF940D70008B96F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B7BA1831EF9414C0008B96F /* NSAttributedString+NSAttributedString_extension.h */,
+				2B7BA1841EF9414C0008B96F /* NSAttributedString+NSAttributedString_extension.m */,
+				2BEE8BAA1EF99EED0018FB34 /* UIAlertController+UIAlertController_extension.h */,
+				2BEE8BAB1EF99EED0018FB34 /* UIAlertController+UIAlertController_extension.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		2BEE8BAD1EF9A28E0018FB34 /* slidingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2BEE8BAE1EF9A2D50018FB34 /* SEMenuTableViewController.h */,
+				2BEE8BAF1EF9A2D50018FB34 /* SEMenuTableViewController.m */,
+				2BEE8BB11EF9A5360018FB34 /* SEMainViewController.h */,
+				2BEE8BB21EF9A5360018FB34 /* SEMainViewController.m */,
+			);
+			name = slidingMenu;
+			sourceTree = "<group>";
+		};
+		6BAF6D421554E9A50993573E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2AFF2997BC948EE5B889483 /* Pods-SmartEnergieTest.debug.xcconfig */,
+				6A532CBC63F93B21D718CC1B /* Pods-SmartEnergieTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8CA1BCFAB81E4AA40C9ABC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74165BF89671F9D8064181FB /* libPods-SmartEnergieTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B7BA13B1EF9303F0008B96F /* SmartEnergieTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7BA1691EF9303F0008B96F /* Build configuration list for PBXNativeTarget "SmartEnergieTest" */;
+			buildPhases = (
+				EB7EE4A3FD0B52324C09CB4F /* [CP] Check Pods Manifest.lock */,
+				2B7BA1381EF9303F0008B96F /* Sources */,
+				2B7BA1391EF9303F0008B96F /* Frameworks */,
+				2B7BA13A1EF9303F0008B96F /* Resources */,
+				80FB4A8674239F0363B56A1F /* [CP] Embed Pods Frameworks */,
+				9FF8C1D4DA7C1895878D5AA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartEnergieTest;
+			productName = SmartEnergieTest;
+			productReference = 2B7BA13C1EF9303F0008B96F /* SmartEnergieTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B7BA1541EF9303F0008B96F /* SmartEnergieTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7BA16C1EF9303F0008B96F /* Build configuration list for PBXNativeTarget "SmartEnergieTestTests" */;
+			buildPhases = (
+				2B7BA1511EF9303F0008B96F /* Sources */,
+				2B7BA1521EF9303F0008B96F /* Frameworks */,
+				2B7BA1531EF9303F0008B96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7BA1571EF9303F0008B96F /* PBXTargetDependency */,
+			);
+			name = SmartEnergieTestTests;
+			productName = SmartEnergieTestTests;
+			productReference = 2B7BA1551EF9303F0008B96F /* SmartEnergieTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B7BA15F1EF9303F0008B96F /* SmartEnergieTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7BA16F1EF9303F0008B96F /* Build configuration list for PBXNativeTarget "SmartEnergieTestUITests" */;
+			buildPhases = (
+				2B7BA15C1EF9303F0008B96F /* Sources */,
+				2B7BA15D1EF9303F0008B96F /* Frameworks */,
+				2B7BA15E1EF9303F0008B96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7BA1621EF9303F0008B96F /* PBXTargetDependency */,
+			);
+			name = SmartEnergieTestUITests;
+			productName = SmartEnergieTestUITests;
+			productReference = 2B7BA1601EF9303F0008B96F /* SmartEnergieTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B7BA1341EF9303E0008B96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SE;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = warrenwalter;
+				TargetAttributes = {
+					2B7BA13B1EF9303F0008B96F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8WHM4TBVB9;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					2B7BA1541EF9303F0008B96F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8WHM4TBVB9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B7BA13B1EF9303F0008B96F;
+					};
+					2B7BA15F1EF9303F0008B96F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8WHM4TBVB9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B7BA13B1EF9303F0008B96F;
+					};
+				};
+			};
+			buildConfigurationList = 2B7BA1371EF9303E0008B96F /* Build configuration list for PBXProject "SmartEnergieTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B7BA1331EF9303E0008B96F;
+			productRefGroup = 2B7BA13D1EF9303F0008B96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B7BA13B1EF9303F0008B96F /* SmartEnergieTest */,
+				2B7BA1541EF9303F0008B96F /* SmartEnergieTestTests */,
+				2B7BA15F1EF9303F0008B96F /* SmartEnergieTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B7BA13A1EF9303F0008B96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEE8BA91EF9775B0018FB34 /* SEFooterSignInTableViewCell.xib in Resources */,
+				2B7BA14F1EF9303F0008B96F /* LaunchScreen.storyboard in Resources */,
+				2BEE8B9C1EF968260018FB34 /* SESignInTableViewCell.xib in Resources */,
+				2B7BA14C1EF9303F0008B96F /* Assets.xcassets in Resources */,
+				2B7BA14A1EF9303F0008B96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7BA1531EF9303F0008B96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7BA15E1EF9303F0008B96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80FB4A8674239F0363B56A1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartEnergieTest/Pods-SmartEnergieTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF8C1D4DA7C1895878D5AA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartEnergieTest/Pods-SmartEnergieTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7EE4A3FD0B52324C09CB4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7BA1381EF9303F0008B96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7BA17E1EF93F450008B96F /* SEHomeViewController.m in Sources */,
+				2B7BA1441EF9303F0008B96F /* AppDelegate.m in Sources */,
+				2BEE8BA81EF9775B0018FB34 /* SEFooterSignInTableViewCell.m in Sources */,
+				2BEE8B971EF967D90018FB34 /* SESignInViewController.m in Sources */,
+				2B7BA1411EF9303F0008B96F /* main.m in Sources */,
+				2BEE8BB31EF9A5360018FB34 /* SEMainViewController.m in Sources */,
+				2BEE8BAC1EF99EED0018FB34 /* UIAlertController+UIAlertController_extension.m in Sources */,
+				2B7BA1881EF95A9E0008B96F /* SEProfil.m in Sources */,
+				2BEE8B9B1EF968260018FB34 /* SESignInTableViewCell.m in Sources */,
+				2BEE8BB01EF9A2D50018FB34 /* SEMenuTableViewController.m in Sources */,
+				2B7BA1851EF9414C0008B96F /* NSAttributedString+NSAttributedString_extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7BA1511EF9303F0008B96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7BA15A1EF9303F0008B96F /* SmartEnergieTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7BA15C1EF9303F0008B96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7BA1651EF9303F0008B96F /* SmartEnergieTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B7BA1571EF9303F0008B96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7BA13B1EF9303F0008B96F /* SmartEnergieTest */;
+			targetProxy = 2B7BA1561EF9303F0008B96F /* PBXContainerItemProxy */;
+		};
+		2B7BA1621EF9303F0008B96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7BA13B1EF9303F0008B96F /* SmartEnergieTest */;
+			targetProxy = 2B7BA1611EF9303F0008B96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B7BA1481EF9303F0008B96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7BA1491EF9303F0008B96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B7BA14D1EF9303F0008B96F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7BA14E1EF9303F0008B96F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B7BA1671EF9303F0008B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B7BA1681EF9303F0008B96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B7BA16A1EF9303F0008B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AFF2997BC948EE5B889483 /* Pods-SmartEnergieTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8WHM4TBVB9;
+				INFOPLIST_FILE = SmartEnergieTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrenwalter.SmartEnergieTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartEnergieTest/SmartEnergieTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B7BA16B1EF9303F0008B96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A532CBC63F93B21D718CC1B /* Pods-SmartEnergieTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8WHM4TBVB9;
+				INFOPLIST_FILE = SmartEnergieTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrenwalter.SmartEnergieTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartEnergieTest/SmartEnergieTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B7BA16D1EF9303F0008B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8WHM4TBVB9;
+				INFOPLIST_FILE = SmartEnergieTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrenwalter.SmartEnergieTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartEnergieTest.app/SmartEnergieTest";
+			};
+			name = Debug;
+		};
+		2B7BA16E1EF9303F0008B96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8WHM4TBVB9;
+				INFOPLIST_FILE = SmartEnergieTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrenwalter.SmartEnergieTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartEnergieTest.app/SmartEnergieTest";
+			};
+			name = Release;
+		};
+		2B7BA1701EF9303F0008B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8WHM4TBVB9;
+				INFOPLIST_FILE = SmartEnergieTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrenwalter.SmartEnergieTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartEnergieTest;
+			};
+			name = Debug;
+		};
+		2B7BA1711EF9303F0008B96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8WHM4TBVB9;
+				INFOPLIST_FILE = SmartEnergieTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrenwalter.SmartEnergieTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartEnergieTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7BA1371EF9303E0008B96F /* Build configuration list for PBXProject "SmartEnergieTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7BA1671EF9303F0008B96F /* Debug */,
+				2B7BA1681EF9303F0008B96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7BA1691EF9303F0008B96F /* Build configuration list for PBXNativeTarget "SmartEnergieTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7BA16A1EF9303F0008B96F /* Debug */,
+				2B7BA16B1EF9303F0008B96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7BA16C1EF9303F0008B96F /* Build configuration list for PBXNativeTarget "SmartEnergieTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7BA16D1EF9303F0008B96F /* Debug */,
+				2B7BA16E1EF9303F0008B96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7BA16F1EF9303F0008B96F /* Build configuration list for PBXNativeTarget "SmartEnergieTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7BA1701EF9303F0008B96F /* Debug */,
+				2B7BA1711EF9303F0008B96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B7BA1341EF9303E0008B96F /* Project object */;
+}
